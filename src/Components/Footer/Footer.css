@@ -1,0 +1,40 @@
+.footer{
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suscribe{
+    height: 30vh;
+    width: 80vw;
+    background-color: brown;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 6px 1px rgb(142, 52, 3);
+}
+.suscribe-note{
+    color: white;
+}
+.input{
+    background-color: white;
+    border-radius: 20px;
+}
+.input-field{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.order-button{
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(239, 80, 12);
+}

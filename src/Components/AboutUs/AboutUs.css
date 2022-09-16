@@ -1,0 +1,14 @@
+.about{
+    min-height: 60vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #F9D9AA;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.about-box{
+    height: 30vh;
+    width: 100vw;
+    border: 2px solid brown;
+}

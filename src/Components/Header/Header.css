@@ -1,0 +1,52 @@
+.header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.icon{
+    width: 20vw;
+    text-align: end;
+    color: #FF902A;
+}
+.nav-item{
+    width: 50vw;
+}
+.search-field{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-button-div{
+    background-color: white;
+    border-radius: 20px;
+}
+.search-button{
+    padding: 8px;
+    margin: 2px;
+    border-radius: 50%;
+}
+.nav-item ul li {
+    display: inline-block;
+    padding:10px 50px ;
+}
+.nav-item a{
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+.cart{
+    padding-left: 20px;
+    font-size: x-large;
+}
+.nav-item a:hover{
+    cursor: pointer;
+    color: #FF902A;
+}
+.cart:hover{
+    cursor: pointer;
+    color: #FF902A;
+}

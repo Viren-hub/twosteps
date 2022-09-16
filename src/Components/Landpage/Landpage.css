@@ -1,0 +1,48 @@
+.land-page{
+    height: 99vh;
+    width: 100vw;
+   background-color: #F9D9AA;
+   /* background-image: url('../../images/MacBook\ Pro\ 14_\ -\ 1\ \(1\).png') */
+}
+.main-section{
+    display: flex;
+}
+.left{
+    height: 89vh;
+    width: 100vw;
+    background-image: url('../../images/main-bg-left.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(0.6);
+    
+}
+.right{
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../../images/main-bg-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(01);
+
+}
+.shop-now-btn{
+    position: absolute;
+    bottom: 50px;
+    left: 45%;
+    font-size: 28px;
+    border: 2px solid #FF902A;
+    color: #FF902A;
+    padding: 10px;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.shop-now-btn:hover{
+    background-color: #FF902A;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
